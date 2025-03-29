@@ -1,0 +1,210 @@
+menu "acpica (C:/ncs/v2.9.1/modules/lib/acpica)"
+osource "$(ZEPHYR_ACPICA_KCONFIG)"
+config ZEPHYR_ACPICA_MODULE
+	bool
+	default y
+endmenu
+menu "canopennode (C:/ncs/v2.9.1/modules/lib/canopennode)"
+osource "$(ZEPHYR_CANOPENNODE_KCONFIG)"
+config ZEPHYR_CANOPENNODE_MODULE
+	bool
+	default y
+endmenu
+menu "chre (C:/ncs/v2.9.1/modules/lib/chre)"
+osource "C:/ncs/v2.9.1/modules/lib/chre/platform/zephyr/Kconfig"
+config ZEPHYR_CHRE_MODULE
+	bool
+	default y
+endmenu
+menu "cmsis (C:/ncs/v2.9.1/modules/hal/cmsis)"
+osource "$(ZEPHYR_CMSIS_KCONFIG)"
+config ZEPHYR_CMSIS_MODULE
+	bool
+	default y
+endmenu
+menu "fatfs (C:/ncs/v2.9.1/modules/fs/fatfs)"
+osource "$(ZEPHYR_FATFS_KCONFIG)"
+config ZEPHYR_FATFS_MODULE
+	bool
+	default y
+endmenu
+menu "hal_ambiq (C:/ncs/v2.9.1/modules/hal/ambiq)"
+osource "$(ZEPHYR_HAL_AMBIQ_KCONFIG)"
+config ZEPHYR_HAL_AMBIQ_MODULE
+	bool
+	default y
+endmenu
+menu "hal_espressif (C:/ncs/v2.9.1/modules/hal/espressif)"
+osource "C:/ncs/v2.9.1/modules/hal/espressif/zephyr/Kconfig"
+config ZEPHYR_HAL_ESPRESSIF_MODULE
+	bool
+	default y
+endmenu
+menu "hal_ethos_u (C:/ncs/v2.9.1/modules/hal/ethos_u)"
+osource "$(ZEPHYR_HAL_ETHOS_U_KCONFIG)"
+config ZEPHYR_HAL_ETHOS_U_MODULE
+	bool
+	default y
+endmenu
+menu "hal_gigadevice (C:/ncs/v2.9.1/modules/hal/gigadevice)"
+osource "$(ZEPHYR_HAL_GIGADEVICE_KCONFIG)"
+config ZEPHYR_HAL_GIGADEVICE_MODULE
+	bool
+	default y
+endmenu
+menu "hal_infineon (C:/ncs/v2.9.1/modules/hal/infineon)"
+osource "$(ZEPHYR_HAL_INFINEON_KCONFIG)"
+config ZEPHYR_HAL_INFINEON_MODULE
+	bool
+	default y
+endmenu
+menu "hal_nordic (C:/ncs/v2.9.1/modules/hal/nordic)"
+osource "$(ZEPHYR_HAL_NORDIC_KCONFIG)"
+config ZEPHYR_HAL_NORDIC_MODULE
+	bool
+	default y
+endmenu
+menu "hal_nxp (C:/ncs/v2.9.1/modules/hal/nxp)"
+osource "$(ZEPHYR_HAL_NXP_KCONFIG)"
+config ZEPHYR_HAL_NXP_MODULE
+	bool
+	default y
+endmenu
+menu "hal_rpi_pico (C:/ncs/v2.9.1/modules/hal/rpi_pico)"
+osource "$(ZEPHYR_HAL_RPI_PICO_KCONFIG)"
+config ZEPHYR_HAL_RPI_PICO_MODULE
+	bool
+	default y
+endmenu
+menu "silabs (C:/ncs/v2.9.1/modules/hal/silabs)"
+osource "C:/ncs/v2.9.1/modules/hal/silabs/zephyr/Kconfig"
+config ZEPHYR_SILABS_MODULE
+	bool
+	default y
+endmenu
+menu "hal_telink (C:/ncs/v2.9.1/modules/hal/telink)"
+osource "C:/ncs/v2.9.1/modules/hal/telink/Kconfig"
+config ZEPHYR_HAL_TELINK_MODULE
+	bool
+	default y
+endmenu
+menu "liblc3 (C:/ncs/v2.9.1/modules/lib/liblc3)"
+osource "$(ZEPHYR_LIBLC3_KCONFIG)"
+config ZEPHYR_LIBLC3_MODULE
+	bool
+	default y
+endmenu
+menu "littlefs (C:/ncs/v2.9.1/modules/fs/littlefs)"
+osource "$(ZEPHYR_LITTLEFS_KCONFIG)"
+config ZEPHYR_LITTLEFS_MODULE
+	bool
+	default y
+endmenu
+menu "loramac-node (C:/ncs/v2.9.1/modules/lib/loramac-node)"
+osource "$(ZEPHYR_LORAMAC_NODE_KCONFIG)"
+config ZEPHYR_LORAMAC_NODE_MODULE
+	bool
+	default y
+endmenu
+menu "lvgl (C:/ncs/v2.9.1/modules/lib/gui/lvgl)"
+osource "C:/ncs/v2.9.1/modules/lib/gui/lvgl/Kconfig"
+config ZEPHYR_LVGL_MODULE
+	bool
+	default y
+endmenu
+menu "lz4 (C:/ncs/v2.9.1/modules/lib/lz4)"
+osource "$(ZEPHYR_LZ4_KCONFIG)"
+config ZEPHYR_LZ4_MODULE
+	bool
+	default y
+endmenu
+menu "mbedtls (C:/ncs/v2.9.1/modules/crypto/mbedtls)"
+osource "$(ZEPHYR_MBEDTLS_KCONFIG)"
+config ZEPHYR_MBEDTLS_MODULE
+	bool
+	default y
+endmenu
+menu "nanopb (C:/ncs/v2.9.1/modules/lib/nanopb)"
+osource "$(ZEPHYR_NANOPB_KCONFIG)"
+config ZEPHYR_NANOPB_MODULE
+	bool
+	default y
+endmenu
+menu "openthread (C:/ncs/v2.9.1/modules/lib/openthread)"
+osource "$(ZEPHYR_OPENTHREAD_KCONFIG)"
+config ZEPHYR_OPENTHREAD_MODULE
+	bool
+	default y
+endmenu
+menu "picolibc (C:/ncs/v2.9.1/modules/lib/picolibc)"
+osource "C:/ncs/v2.9.1/modules/lib/picolibc/zephyr/Kconfig"
+config ZEPHYR_PICOLIBC_MODULE
+	bool
+	default y
+endmenu
+menu "segger (C:/ncs/v2.9.1/modules/debug/segger)"
+osource "$(ZEPHYR_SEGGER_KCONFIG)"
+config ZEPHYR_SEGGER_MODULE
+	bool
+	default y
+endmenu
+menu "sof (C:/ncs/v2.9.1/modules/audio/sof)"
+osource "C:/ncs/v2.9.1/modules/audio/sof/zephyr/Kconfig"
+config ZEPHYR_SOF_MODULE
+	bool
+	default y
+endmenu
+menu "tflite-micro (C:/ncs/v2.9.1/modules/lib/tflite-micro)"
+osource "$(ZEPHYR_TFLITE_MICRO_KCONFIG)"
+config ZEPHYR_TFLITE_MICRO_MODULE
+	bool
+	default y
+endmenu
+menu "TraceRecorder (C:/ncs/v2.9.1/modules/debug/TraceRecorder)"
+osource "C:/ncs/v2.9.1/modules/debug/TraceRecorder/kernelports/Zephyr/Kconfig"
+config ZEPHYR_TRACERECORDER_MODULE
+	bool
+	default y
+endmenu
+menu "trusted-firmware-m (C:/ncs/v2.9.1/modules/tee/tf-m/trusted-firmware-m)"
+osource "$(ZEPHYR_TRUSTED_FIRMWARE_M_KCONFIG)"
+config ZEPHYR_TRUSTED_FIRMWARE_M_MODULE
+	bool
+	default y
+endmenu
+menu "trusted-firmware-a (C:/ncs/v2.9.1/modules/tee/tf-a/trusted-firmware-a)"
+osource "$(ZEPHYR_TRUSTED_FIRMWARE_A_KCONFIG)"
+config ZEPHYR_TRUSTED_FIRMWARE_A_MODULE
+	bool
+	default y
+endmenu
+menu "uoscore-uedhoc (C:/ncs/v2.9.1/modules/lib/uoscore-uedhoc)"
+osource "$(ZEPHYR_UOSCORE_UEDHOC_KCONFIG)"
+config ZEPHYR_UOSCORE_UEDHOC_MODULE
+	bool
+	default y
+endmenu
+menu "zcbor (C:/ncs/v2.9.1/modules/lib/zcbor)"
+osource "$(ZEPHYR_ZCBOR_KCONFIG)"
+config ZEPHYR_ZCBOR_MODULE
+	bool
+	default y
+endmenu
+menu "zscilib (C:/ncs/v2.9.1/modules/lib/zscilib)"
+osource "C:/ncs/v2.9.1/modules/lib/zscilib/Kconfig.zscilib"
+config ZEPHYR_ZSCILIB_MODULE
+	bool
+	default y
+endmenu
+menu "thrift (C:/ncs/v2.9.1/modules/lib/thrift)"
+osource "$(ZEPHYR_THRIFT_KCONFIG)"
+config ZEPHYR_THRIFT_MODULE
+	bool
+	default y
+endmenu
+menu "nrf (C:/ncs/v2.9.1/uwb_receiver2/../nrf)"
+osource "C:/ncs/v2.9.1/nrf/Kconfig.nrf"
+config ZEPHYR_NRF_MODULE
+	bool
+	default y
+endmenu

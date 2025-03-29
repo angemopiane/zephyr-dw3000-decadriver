@@ -1,0 +1,19 @@
+# Désactiver tous les modules inutiles pour éviter les Kconfig warnings bloquants
+set(KCONFIG_WARN_AS_ERROR OFF CACHE BOOL "Don't treat Kconfig warnings as errors")
+
+set(ZEPHYR_EXTRA_KCONFIG_OPTS
+  "CONFIG_OPENTHREAD=n
+   CONFIG_OPENTHREAD_SHELL=n
+   CONFIG_OPENTHREAD_NORDIC_LIBRARY=n
+   CONFIG_OPENTHREAD_MTD=n
+   CONFIG_OPENTHREAD_FTD=n
+   CONFIG_WIFI=n
+   CONFIG_WIFI_NM=n
+   CONFIG_WIFI_NM_WPA_SUPPLICANT=n
+   CONFIG_NRF_MODEM_LIB=n
+   CONFIG_FPROTECT=n
+   CONFIG_MCUMGR=n
+   CONFIG_MCUMGR_TRANSPORT_BT=n
+   CONFIG_BOOTLOADER_MCUBOOT=n"
+  CACHE STRING "Force disable unused modules"
+)

@@ -1,0 +1,61 @@
+# Désactiver OpenThread
+config OPENTHREAD
+    bool "Disable OpenThread"
+    default n
+
+config OPENTHREAD_DYNAMIC_STORE_FRAME_AHEAD_COUNTER
+    bool "Disable dynamic store frame ahead counter"
+    default n
+
+config OPENTHREAD_CSL_RECEIVER_LOCAL_TIME_SYNC
+    bool "Disable Openthread CSL receiver local time sync"
+    default n
+
+# Désactiver le support MCUMGR (pour la gestion du firmware)
+config MCUMGR
+    bool "Disable MCUMGR"
+    default n
+
+# Désactiver le Bluetooth
+config BT
+    bool "Disable Bluetooth stack"
+    default n
+
+# Désactiver Link Layer Split pour Bluetooth
+config BT_LL_SW_SPLIT
+    bool "Disable Bluetooth Link Layer Software Split"
+    default n
+
+# Désactiver Bluetooth UART Service (NUS)
+config BT_NUS
+    bool "Disable Bluetooth NUS"
+    default n
+
+# Désactiver les modules Wi-Fi
+config WIFI_NM
+    bool "Disable Wi-Fi"
+    default n
+
+config WIFI_NM_WPA_SUPPLICANT_WPA3
+    bool "Disable WPA3"
+    default n
+
+config WIFI_NM_WPA_SUPPLICANT_CRYPTO_ENTERPRISE
+    bool "Disable WPA Enterprise Crypto"
+    default n
+
+# Désactiver les modules inutiles pour le modem
+config NRF_MODEM_LIB
+    bool "Disable modem library"
+    default n
+
+# Désactiver la gestion des protections de mémoire
+config FPROTECT
+    bool "Disable FPROTECT"
+    default n
+
+# Désactiver les modules inutiles pour le Wi-Fi
+config NRF_WIFI_FW_BLOB_HANDLING
+    bool "Disable Wi-Fi firmware handling"
+    default n
+
