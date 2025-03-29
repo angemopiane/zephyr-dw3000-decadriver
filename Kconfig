@@ -48,14 +48,3 @@ config WIFI_NM_WPA_SUPPLICANT_CRYPTO_ENTERPRISE
 config NRF_MODEM_LIB
     bool "Disable modem library"
     default n
-
-# Désactiver la gestion des protections de mémoire
-config FPROTECT
-    bool "Disable FPROTECT"
-    default n
-
-# Désactiver les modules inutiles pour le Wi-Fi
-config NRF_WIFI_FW_BLOB_HANDLING
-    bool "Disable Wi-Fi firmware handling"
-    default n
-
