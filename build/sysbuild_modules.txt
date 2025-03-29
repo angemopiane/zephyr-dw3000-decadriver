@@ -1,1 +1,0 @@
-"nrf":"C:/ncs/v2.9.1/uwb_receiver2/../nrf":"C:/ncs/v2.9.1/nrf/sysbuild"
